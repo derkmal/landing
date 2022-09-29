@@ -78,14 +78,15 @@ header {
     position: relative;  /* um top, bottom, left und right benutzen zu können */
     top: -15px; 
     border: 8px solid rgba(120,120,120,0.7);
+    border-radius: 5px;
     background-color: white;
     background-clip: padding-box;
     /* background-origin: is the same as background-clip but for images; */
 }
 
 .form h2 {
-    font-weight: normal;
-    color: #999999;
+    font-weight: bold;
+    color: black;
     font-size: 21px;
 }
 
@@ -109,6 +110,7 @@ header {
     width: 344px;
     height: 55px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .form .input-submit-container {
@@ -126,6 +128,7 @@ header {
     border-left: 0;
     border-right: 0;
     border-bottom: 5px solid #4A5097;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -159,14 +162,15 @@ form input[type=submit]:hover {
 }
 
 .container-2 h2 {
-    font-weight: normal;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .container-2 p {
-    width: 698px;
+    /* width: 698px; */
     margin: 15px 0;
     display: inline-block;
-    text-align: justify;
+    text-align: center;
 }
 
 .arrow {
